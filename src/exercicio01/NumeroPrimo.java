@@ -19,7 +19,15 @@ public class NumeroPrimo {
      * @return Set<Integer>
      */
     public Set<Integer> getNumerosPrimosDe(Set<Integer> numeros) {
+        int [] conjunto = new int[numeros.size()];
+        int soma = 0;
+        for(Integer primos : numeros){
+        
+
+
+        }
         // TODO: implemente o código deste método
+
         return null;
     }
 

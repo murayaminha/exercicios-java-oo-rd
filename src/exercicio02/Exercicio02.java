@@ -27,7 +27,13 @@ public class Exercicio02 {
     }
 
     private static double calculaOrcamentoAnual(List<Funcionario> funcionarios) {
+        double orcamento = 0;
+            for(Funcionario valor : funcionarios)
+            {
+                orcamento += valor.salarioAnual();
+            }
         // TODO: implemente o código deste método
-        return 0.0;
+
+        return orcamento;
     }
 }
