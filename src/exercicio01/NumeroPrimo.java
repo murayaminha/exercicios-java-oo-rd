@@ -1,5 +1,6 @@
 package exercicio01;
 
+import javax.imageio.stream.ImageInputStream;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -22,8 +23,8 @@ public class NumeroPrimo {
         int [] conjunto = new int[numeros.size()];
         int soma = 0;
         for(Integer primos : numeros){
-        
 
+            
 
         }
         // TODO: implemente o código deste método
